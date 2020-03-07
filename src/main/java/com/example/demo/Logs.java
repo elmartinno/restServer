@@ -17,7 +17,7 @@ public class Logs {
 
         try {
 
-            fh = new FileHandler("C:\\Users\\marti\\OneDrive\\Desktop\\diplomka\\dp-test\\logy\\rest\\server\\LogzRESTServer.txt",
+            fh = new FileHandler("\\diplomovkaLogs",
                     true);
             logger.addHandler(fh);
             SimpleFormatter formatter = new SimpleFormatter();
