@@ -17,7 +17,7 @@ public class Logs {
 
         try {
 
-            fh = new FileHandler("/diplomovkaLogs/RestServer.txt",
+            fh = new FileHandler("/tmp/RestServer.txt",
                     true);
             logger.addHandler(fh);
             SimpleFormatter formatter = new SimpleFormatter();
